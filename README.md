@@ -35,3 +35,6 @@
 
 # 한계점
 * 학습 데이터가 실제 정답 y와 x가 한 쌍으로 묶여 있어야 한다. 
+
+# 결론
+* conditional adversarial network가 많은 종류의 image to image translation task에 좋은 접근이 될 수 있다.
