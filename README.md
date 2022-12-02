@@ -4,6 +4,7 @@
 *다양한 task를 image to image translation 관점에서 hyperparameter의 조정 없이 공통적인 approach로 좋은 결과를 냄.
 
 # conditional GAN
+<img width="472" alt="pix12" src="https://user-images.githubusercontent.com/86214286/205292193-db29a7e5-6945-4876-acf2-45b4e0e47954.png">
 
 # architecture
 <img width="178" alt="pix 2 pix 2" src="https://user-images.githubusercontent.com/86214286/205290685-a819aa1f-cf43-42f0-872a-973d1b778803.png">
