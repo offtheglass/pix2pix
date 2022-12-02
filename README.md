@@ -17,9 +17,9 @@
 
 <img width="399" alt="pix2pix 3" src="https://user-images.githubusercontent.com/86214286/205290933-0ac73dd1-7aa1-453f-87b7-6b82e9c691c6.png">
 * 왼쪽의 Lcgan은 현실적인 이미지를 만들도록하고, 오른쪽의 L1 loss는 실제 정답과 generator가 만든 image가 유사하도록 학습을 이끈다.
-* -L1 loss를 사용할 때 l2 loss를 사용할 때 보다 blurring 현상이 덜 발생한다고 함.
+* L1 loss를 사용할 때 l2 loss를 사용할 때 보다 blurring 현상이 덜 발생한다고 함.
+<img width="472" alt="pix12" src="https://user-images.githubusercontent.com/86214286/205291832-b481a62a-065c-405c-a6a7-c83293cce9d6.png">
 
-[pix2pix6.pdf](https://github.com/offtheglass/pix2pix/files/10140998/pix2pix6.pdf)
 <img width="380" alt="pix2 pix 4" src="https://user-images.githubusercontent.com/86214286/205291112-cc533ead-e1fa-419a-9f3a-c6d3db44693f.png">
 <img width="357" alt="pix2pix 5" src="https://user-images.githubusercontent.com/86214286/205291194-f2353058-c6ad-4aa8-93ea-9c0eea8890f7.png">
 
