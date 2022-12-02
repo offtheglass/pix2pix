@@ -4,11 +4,12 @@
 *다양한 task를 image to image translation 관점에서 hyperparameter의 조정 없이 공통적인 approach로 좋은 결과를 냄.
 
 # conditional GAN
-<img width="472" alt="pix12" src="https://user-images.githubusercontent.com/86214286/205292193-db29a7e5-6945-4876-acf2-45b4e0e47954.png">
-
+<img width="939" alt="heisthebest" src="https://user-images.githubusercontent.com/86214286/205292769-d2a3925a-9e43-47f3-be06-9c96d3733b91.png">
+* GAN과 비슷한 구조인데 조건(condition)을 주어서 조건에 맞게 학습할 수 있도록 함.(ex) 0-9까지의 클래스가 있다고 하면 7이라는 조건을 주고 그에 맞는 이미지를 생성)
+* pix 2 pix는 일종의 conditional GAN으로 condition을 image로 주는 것으로 볼 수 있다.
 # architecture
 <img width="178" alt="pix 2 pix 2" src="https://user-images.githubusercontent.com/86214286/205290685-a819aa1f-cf43-42f0-872a-973d1b778803.png">
-*U-net 기반의 네트워크 아키텍쳐 사용(input과 output의 크기를 맞추는 것은 다른 네트워크를 써도 되지만 U-net을 쓰는 게 성능이 좋았다고 함)
+* U-net 기반의 네트워크 아키텍쳐 사용(input과 output의 크기를 맞추는 것은 다른 네트워크를 써도 되지만 U-net을 쓰는 게 성능이 좋았다고 함)
 * 입력과 출력 모두 이미지이므로 입력과 출력의 차원을 맞춰줌
 * -Skip connection을 사용해서 앞 쪽 layer에서 사용됐던 출력정보들을 뒤 쪽 layer에서도 사용할 수 있게 해 학습의 난이도를 낮춤
 * 입력이미지와 출력이미지가 많은 정보를 공유하기 때문에 skip connection을 사용하는 것이 좋은 성능을 내는 데 도움이 된다고 할 수 있음.
